@@ -133,7 +133,41 @@ Backstory As a kid I played a lot of video games. I mainly played Minecraft on p
     <div class="post-meta"><span title='2024-03-07 09:25:15 -0800 PST'>March 7, 2024</span>&nbsp;·&nbsp;7 min
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#backstory" aria-label="Backstory">Backstory</a></li>
+                <li>
+                    <a href="#server-development" aria-label="Server Development">Server Development</a><ul>
+                        
+                <li>
+                    <a href="#setting-up-a-server" aria-label="Setting up a Server">Setting up a Server</a></li></ul>
+                </li>
+                <li>
+                    <a href="#servers-i-created" aria-label="Servers I Created">Servers I Created</a><ul>
+                        
+                <li>
+                    <a href="#factions" aria-label="Factions">Factions</a></li>
+                <li>
+                    <a href="#kit-pvp" aria-label="Kit PvP">Kit PvP</a></li>
+                <li>
+                    <a href="#skyblock" aria-label="Skyblock">Skyblock</a></li></ul>
+                </li>
+                <li>
+                    <a href="#plugin-development" aria-label="Plugin Development">Plugin Development</a></li>
+                <li>
+                    <a href="#where-i-am-today" aria-label="Where I am Today">Where I am Today</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><p><strong>In this blog post I talk about my experience learning to create Minecraft Servers and Plugins.</strong></p>
 <hr>
 <h1 id="backstory">Backstory<a hidden class="anchor" aria-hidden="true" href="#backstory">#</a></h1>
@@ -266,6 +300,53 @@ Backstory As a kid I played a lot of video games. I mainly played Minecraft on p
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
