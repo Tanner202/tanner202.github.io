@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>5 Game Development Mistakes that Cost me my Summer | Tanner&#39;s Blog</title>
+<meta name="keywords" content="Game Development Advice">
+<meta name="description" content="Creating a video game takes many skills, especially if you’re doing it solo. In this blog post I will be sharing 5 mistakes that I made when creating a game in the summer of 2023.
+1. Make a plan Plans are important in all aspects of life, but it is especially so in game development. Without a plan you can lose sight of what your goal is and go off on tangents doing things that look cool, but don’t actually help with progress towards finishing your game.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/summer-game-mistakes/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/summer-game-mistakes/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Tanner&#39;s Blog (Alt + H)">Tanner&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      5 Game Development Mistakes that Cost me my Summer
+    </h1>
+    <div class="post-meta"><span title='2025-03-27 07:58:39 -0700 PDT'>March 27, 2025</span>&nbsp;·&nbsp;8 min
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul><ul>
+                <li>
+                    <a href="#1-make-a-plan" aria-label="1. Make a plan">1. Make a plan</a><ul>
+                        
+                <li>
+                    <a href="#my-experience" aria-label="My Experience:">My Experience:</a></li></ul>
+                </li>
+                <li>
+                    <a href="#2-know-the-purpose" aria-label="2. Know the Purpose">2. Know the Purpose</a><ul>
+                        
+                <li>
+                    <a href="#my-experience-1" aria-label="My Experience:">My Experience:</a></li></ul>
+                </li>
+                <li>
+                    <a href="#3-motivation" aria-label="3. Motivation">3. Motivation</a><ul>
+                        
+                <li>
+                    <a href="#my-experience-2" aria-label="My Experience:">My Experience:</a></li></ul>
+                </li>
+                <li>
+                    <a href="#4-playtest" aria-label="4. Playtest">4. Playtest</a><ul>
+                        
+                <li>
+                    <a href="#my-experience-3" aria-label="My Experience:">My Experience:</a></li></ul>
+                </li>
+                <li>
+                    <a href="#5-scope-creep" aria-label="5. Scope Creep">5. Scope Creep</a><ul>
+                        
+                <li>
+                    <a href="#my-experience-4" aria-label="My Experience:">My Experience:</a></li></ul>
+                </li></ul>
+                    
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Creating a video game takes many skills, especially if you’re doing it solo. In this blog post I will be sharing 5 mistakes that I made when creating a game in the summer of 2023.</p>
+<hr>
+<h2 id="1-make-a-plan">1. Make a plan<a hidden class="anchor" aria-hidden="true" href="#1-make-a-plan">#</a></h2>
+<p>Plans are important in all aspects of life, but it is especially so in game development. Without a plan you can lose sight of what your goal is and go off on tangents doing things that look cool, but don’t actually help with progress towards finishing your game.</p>
+<p>Don’t just make one plan though, make many. As your project grows from the initial idea it is bound to change in some way. Seldom does someone have one plan that they follow all the way through their development. Plans are flawed, and you can&rsquo;t predict every challenge ahead. Changes are necessary so make sure to make new plans when necessary.</p>
+<h3 id="my-experience">My Experience:<a hidden class="anchor" aria-hidden="true" href="#my-experience">#</a></h3>
+<p>For the game I worked on I didn’t make enough plans. I made my initial layout of the project with a timeline and everything and quickly drifted away from that plan which wouldn’t have been too bad if I had made another one.</p>
+<p>Unfortunately, not having the structure and guidance of a plan caused me to waste the time I had because there was no end goal besides ‘finish the game.’ If I sat down and made a plan every couple weeks or each month, I would have been realistic about what I could accomplish and completed my game.</p>
+<hr>
+<h2 id="2-know-the-purpose">2. Know the Purpose<a hidden class="anchor" aria-hidden="true" href="#2-know-the-purpose">#</a></h2>
+<p>Knowing why you&rsquo;re creating a game can heavily change the way you approach making it. There are many reasons why people create games. Some reasons could be: to learn a new skill, to have fun, to make money, to share an experience, etc. Many of the reasons can be combined, but usually there is a focus. That focus should drive the actions you make in order to complete your game.</p>
+<h3 id="my-experience-1">My Experience:<a hidden class="anchor" aria-hidden="true" href="#my-experience-1">#</a></h3>
+<p>For instance, my goal was to publish a game on steam. That was it and I failed.</p>
+<p>Part of the reason I failed is, as silly as it might sound: I didn’t focus on my goal. You might be thinking to yourself, ‘how could I possibly not focus on my goal’. The reason I lost sight of my goal is because I got caught up in other goals like attempting to build an audience.</p>
+<p>Building an audience is extremely important to making a successful game, but my goal wasn’t to make a <em>successful</em> game, it was to just <em>make</em> a game. All the time I spent marketing and learning to market my game took away from the time I spent actually making my game.</p>
+<p>If I knew my purpose and focused on it I would have had a higher chance of finishing my game. If you want to increase your chance of finishing a game, make sure to keep purpose in mind.</p>
+<hr>
+<h2 id="3-motivation">3. Motivation<a hidden class="anchor" aria-hidden="true" href="#3-motivation">#</a></h2>
+<p>Motivation is a thing most people struggle with and that’s why I’ve learned to give up on it. From my experience, I can’t rely on motivation to be there. I need to rely on something more consistent: habits.</p>
+<p>Habits are something that are hard to form, but can be just as hard to take away. It takes time to build habits, but that time is well spent because it provides structure for the future.</p>
+<h3 id="my-experience-2">My Experience:<a hidden class="anchor" aria-hidden="true" href="#my-experience-2">#</a></h3>
+<p>I wish I had known that habits were the key. This was especially important because it was summer and as a high school student with no job, that gave me a <em>ton</em> of time. With all this time, I could have created a habit for a structured work day on my game. Instead, I just said ‘eh, I’ll work on it when I <em>feel</em> like it.’</p>
+<p>For me, not creating a schedule was a big mistake because I would spend hours playing video games and watching YouTube instead of working on my game. Taking time to relax isn’t a bad thing, but for me I like to work during the day and relax at night rather than vice versa. I felt like a failure for not working on the game, and then continued to spend time not working on my game.</p>
+<p>This cycle continued for the whole summer. Sometimes I would wake up feeling motivated and work on my game and sometimes I would wake up and play video games. My summer was like a game of Yahtzee, although I had some control, the majority was up to chance. With habits I could have gained that control back and been consistent with my progress towards finishing my game.</p>
+<hr>
+<h2 id="4-playtest">4. Playtest<a hidden class="anchor" aria-hidden="true" href="#4-playtest">#</a></h2>
+<p>Playtesting is one of the hardest parts of game development, in my opinion. It requires a person to be prepared to receive criticism on something they have spent countless hours working on. The reason playtesting is so powerful is because it brings a new perspective to a game. When you are working on your game, you lose sight of the problems other people might see. They might not always be right about <em>how</em> to fix it, but they will be able to spot the problems.</p>
+<p>Don’t take it personally, it’s a big skill that I still need to work on, but a very important one. Think of every playtest as a chance to improve your game and save your future self time, even if it means removing some features.</p>
+<p>When conducting a playtest it’s important to not only hear what the player is saying, but also what they are doing, their reactions, and their facial expression. A player can lie about what they think about your game to make you feel good, but they can’t lie through their actions. If you want <em>real</em> feedback, pay attention to everything that the player does.</p>
+<h3 id="my-experience-3">My Experience:<a hidden class="anchor" aria-hidden="true" href="#my-experience-3">#</a></h3>
+<p>When creating my game, I almost completely ignored playtesting. I just kept telling myself, “it’s not ready yet.” By the time I thought it was ready, it was too late. I asked my brother to playtest it and he did. I could tell by his expression that he was not having fun. It looked like he was being forced to play which is the opposite of what game designers want.</p>
+<p>I knew I didn’t have enough time to fix all the issues which demoralized me at the time. I now have the idea that if I’m putting off playtesting then something isn’t right. Either the game doesn’t feel playable or it isn’t fun. One way I’ve found is to fix this is to create a Minimum Viable Product (MVP) for playtesting. This way I have a very clear goal where I know the outcome will result in something that others can actually play and give feedback on.</p>
+<p>Try to playtest as soon as you have a question about your game. If you&rsquo;re unsure about if a certain feature works, playtest it! Playtests don’t need to be polished, they just need to work and test a hypothesis. Then again, don’t waste playtesters time by playing something that you already know the problems of. If you know the outcome of the playtest before it even begins, then fix those problems first. Overall though, playtests are extremely useful, so use them!</p>
+<hr>
+<h2 id="5-scope-creep">5. Scope Creep<a hidden class="anchor" aria-hidden="true" href="#5-scope-creep">#</a></h2>
+<p>One of the greatest time sinks in game development is scope creep. It relates to losing sight of an intended goal by enticing the developer(s) with endless fun features. Our brains can come up with cool ideas faster than we can create them. It’s important to write them down, but to stay focused.</p>
+<p>I recently just finished a project and it took about twice as long as I thought it would, even with limiting the amount of features I added. If you keep adding features, you will never finish, so don’t do it.</p>
+<p>Set a plan for your features and don’t change it unless you <em>absolutely</em> must. Focus on the barebones, finish the game, and then if you want to add more features after then you can. However, I’m guessing by the time you get to the end of creating your game, you’re going to want to be done with it.</p>
+<h3 id="my-experience-4">My Experience:<a hidden class="anchor" aria-hidden="true" href="#my-experience-4">#</a></h3>
+<p>Scope creep was my biggest mistake that prevented me from finishing my game. Before finishing one feature, I&rsquo;d come up with a more complex idea and start implementing it. Before I finished the enemy AI, I started adding companions for the player. I still have uncompleted features in that game and it would take at least another year to finish them all up. This is part of the reason why I was never ready to playtest. I was always adding new features and expanding my game before I even had the core game loop.</p>
+<p>The way I have started to fix this is to create a challenge for myself: What is the minimum amount of features I can include to bring my idea to life? With a clear goal in mind, figuring out what features are absolutely necessary for the game to be playable. This has been helpful for the game I’m currently working on with my school’s game development team.</p>
+<hr>
+<h1 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h1>
+<p>These are the 5 biggest mistakes I made that cost me a summer&rsquo;s worth of time and a mountain’s worth of effort. These aren’t all the problems that exist of course, but they are the biggest ones I’ve encountered from my failure. By taking into account the problems of motivation, planning, playtesting, scope creep and goal setting, you can make it easier on yourself to finish your game, which is already a tough challenge on its own. I hope you learn from my mistakes so you can avoid them and make awesome games!</p>
+<p>What challenges have you faced and what solution did you come up with? Let me know by contacting me!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/game-development-advice/">Game Development Advice</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="http://localhost:1313/">Tanner&#39;s Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
