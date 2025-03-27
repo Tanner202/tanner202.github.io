@@ -2,31 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Tanner&#39;s Blog</title>
-    <link>https://tanner202.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Tanner&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Feb 2025 08:17:57 -0800</lastBuildDate>
-    <atom:link href="https://tanner202.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game Development Advice</title>
-      <link>https://tanner202.github.io/tags/game-development-advice/</link>
+      <link>http://localhost:1313/tags/game-development-advice/</link>
       <pubDate>Sun, 09 Feb 2025 08:17:57 -0800</pubDate>
-      <guid>https://tanner202.github.io/tags/game-development-advice/</guid>
+      <guid>http://localhost:1313/tags/game-development-advice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>http://localhost:1313/tags/game/</link>
+      <pubDate>Thu, 07 Mar 2024 09:25:15 -0800</pubDate>
+      <guid>http://localhost:1313/tags/game/</guid>
       <description></description>
     </item>
     <item>
       <title>Minecraft</title>
-      <link>https://tanner202.github.io/tags/minecraft/</link>
+      <link>http://localhost:1313/tags/minecraft/</link>
       <pubDate>Thu, 07 Mar 2024 09:25:15 -0800</pubDate>
-      <guid>https://tanner202.github.io/tags/minecraft/</guid>
+      <guid>http://localhost:1313/tags/minecraft/</guid>
       <description></description>
     </item>
     <item>
       <title>Plugins</title>
-      <link>https://tanner202.github.io/tags/plugins/</link>
+      <link>http://localhost:1313/tags/plugins/</link>
       <pubDate>Thu, 07 Mar 2024 09:25:15 -0800</pubDate>
-      <guid>https://tanner202.github.io/tags/plugins/</guid>
+      <guid>http://localhost:1313/tags/plugins/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity</title>
+      <link>http://localhost:1313/tags/unity/</link>
+      <pubDate>Thu, 07 Mar 2024 09:25:15 -0800</pubDate>
+      <guid>http://localhost:1313/tags/unity/</guid>
       <description></description>
     </item>
   </channel>
