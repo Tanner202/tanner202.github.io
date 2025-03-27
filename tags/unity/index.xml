@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Unity on Tanner&#39;s Blog</title>
+    <link>http://localhost:1313/tags/unity/</link>
+    <description>Recent content in Unity on Tanner&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Mar 2024 09:25:15 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development of a 2D Game Called: Snow Fort Defense</title>
+      <link>http://localhost:1313/posts/snow-fort-defense-game/</link>
+      <pubDate>Thu, 07 Mar 2024 09:25:15 -0800</pubDate>
+      <guid>http://localhost:1313/posts/snow-fort-defense-game/</guid>
+      <description>✨Hello! In this blog post I&amp;rsquo;m going to be talking about my experience making a game called snow fort defense. ✨
+Beginning I started this project at the start of the summer in 2023. This was a project I had the idea for quite some time but hadn&amp;rsquo;t had the time to do because of school. My plan was simple: create a video game during the 10 weeks of summer. In my mind at the time I thought this was plenty of time to create a full game and I was ready.</description>
+    </item>
+  </channel>
+</rss>
