@@ -2,17 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Game Development Advice on Tanner&#39;s Blog</title>
-    <link>http://localhost:1313/tags/game-development-advice/</link>
+    <link>https://tanner202.github.io/tags/game-development-advice/</link>
     <description>Recent content in Game Development Advice on Tanner&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Feb 2025 08:17:57 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/game-development-advice/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Mar 2025 07:58:39 -0700</lastBuildDate>
+    <atom:link href="https://tanner202.github.io/tags/game-development-advice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+<<<<<<< Updated upstream
+      <title>How 5 Game Dev Mistakes Derailed My Summer</title>
+=======
+      <title>5 Game Development Mistakes that Derailed my Summer</title>
+>>>>>>> Stashed changes
+      <link>https://tanner202.github.io/posts/summer-game-mistakes/</link>
+      <pubDate>Thu, 27 Mar 2025 07:58:39 -0700</pubDate>
+      <guid>https://tanner202.github.io/posts/summer-game-mistakes/</guid>
+      <description>Creating a video game takes many skills, especially if you’re doing it solo. In this blog post I will be sharing 5 mistakes that I made when creating a game in the summer of 2023.
+1. Make a plan Plans are important in all aspects of life, but it is especially so in game development. Without a plan you can lose sight of what your goal is and go off on tangents doing things that look cool, but don’t actually help with progress towards finishing your game.</description>
+    </item>
     <item>
       <title>Starting Game Development</title>
-      <link>http://localhost:1313/posts/starting-game-dev/</link>
+      <link>https://tanner202.github.io/posts/starting-game-dev/</link>
       <pubDate>Sun, 09 Feb 2025 08:17:57 -0800</pubDate>
-      <guid>http://localhost:1313/posts/starting-game-dev/</guid>
+      <guid>https://tanner202.github.io/posts/starting-game-dev/</guid>
       <description>Modifying Existing Games I started game development around 4-5 years ago creating Minecraft plugins. Modifying an existing game is a great way to get started learning game development because most of the tools are already in place.
 If you enjoy any existing games and would like to build off or modify in any way, I definitely recommend it. Games like Roblox are built as easy to use tools to create games but can also be quite powerful.</description>
     </item>
