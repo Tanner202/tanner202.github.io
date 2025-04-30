@@ -6,7 +6,7 @@
     <description>Recent content on Tanner&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Mar 2025 07:58:39 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 28 Apr 2025 09:44:12 -0700</lastBuildDate>
     <atom:link href="https://tanner202.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minecraft Server and Plugin Development</title>
@@ -15,6 +15,13 @@
       <guid>https://tanner202.github.io/posts/minecraft-plugins/</guid>
       <description>In this blog post I talk about my experience learning to create Minecraft Servers and Plugins.
 Backstory As a kid I played a lot of video games. I mainly played Minecraft on popular online servers like Mineplex and Hypixel. During these days, I would wake up, hop on a call with my friends, and we would just play games. As I got older, these servers started to fade away and things changed.</description>
+    </item>
+    <item>
+      <title>Game Development: Team or Independent? (Pros and Cons of each)</title>
+      <link>https://tanner202.github.io/posts/team-or-independent-pros-and-cons/</link>
+      <pubDate>Mon, 28 Apr 2025 09:44:12 -0700</pubDate>
+      <guid>https://tanner202.github.io/posts/team-or-independent-pros-and-cons/</guid>
+      <description>Intro Both working independently and with a team have their upsides and downsides. It depends on your goals and also what is important to you. For example, if you like having control over every aspect of your game you might prefer solo development. However, if you’re willing to sacrifice some creative liberties you might enjoy working with a team. As someone who&amp;rsquo;s been on both sides of this coin, I will share the pros and cons I&amp;rsquo;ve experienced.</description>
     </item>
     <item>
       <title>5 Game Development Mistakes that Derailed my Summer</title>

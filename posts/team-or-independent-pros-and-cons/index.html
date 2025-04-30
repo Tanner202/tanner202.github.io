@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Game Development: Team or Independent? (Pros and Cons of each) | Tanner&#39;s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Intro Both working independently and with a team have their upsides and downsides. It depends on your goals and also what is important to you. For example, if you like having control over every aspect of your game you might prefer solo development. However, if you’re willing to sacrifice some creative liberties you might enjoy working with a team. As someone who&rsquo;s been on both sides of this coin, I will share the pros and cons I&rsquo;ve experienced.">
+<meta name="author" content="">
+<link rel="canonical" href="https://tanner202.github.io/posts/team-or-independent-pros-and-cons/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://tanner202.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tanner202.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tanner202.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://tanner202.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://tanner202.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://tanner202.github.io/posts/team-or-independent-pros-and-cons/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Game Development: Team or Independent? (Pros and Cons of each)" />
+<meta property="og:description" content="Intro Both working independently and with a team have their upsides and downsides. It depends on your goals and also what is important to you. For example, if you like having control over every aspect of your game you might prefer solo development. However, if you’re willing to sacrifice some creative liberties you might enjoy working with a team. As someone who&rsquo;s been on both sides of this coin, I will share the pros and cons I&rsquo;ve experienced." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tanner202.github.io/posts/team-or-independent-pros-and-cons/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-04-28T09:44:12-07:00" />
+<meta property="article:modified_time" content="2025-04-28T09:44:12-07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Game Development: Team or Independent? (Pros and Cons of each)"/>
+<meta name="twitter:description" content="Intro Both working independently and with a team have their upsides and downsides. It depends on your goals and also what is important to you. For example, if you like having control over every aspect of your game you might prefer solo development. However, if you’re willing to sacrifice some creative liberties you might enjoy working with a team. As someone who&rsquo;s been on both sides of this coin, I will share the pros and cons I&rsquo;ve experienced."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://tanner202.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Game Development: Team or Independent? (Pros and Cons of each)",
+      "item": "https://tanner202.github.io/posts/team-or-independent-pros-and-cons/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Game Development: Team or Independent? (Pros and Cons of each)",
+  "name": "Game Development: Team or Independent? (Pros and Cons of each)",
+  "description": "Intro Both working independently and with a team have their upsides and downsides. It depends on your goals and also what is important to you. For example, if you like having control over every aspect of your game you might prefer solo development. However, if you’re willing to sacrifice some creative liberties you might enjoy working with a team. As someone who\u0026rsquo;s been on both sides of this coin, I will share the pros and cons I\u0026rsquo;ve experienced.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Intro Both working independently and with a team have their upsides and downsides. It depends on your goals and also what is important to you. For example, if you like having control over every aspect of your game you might prefer solo development. However, if you’re willing to sacrifice some creative liberties you might enjoy working with a team. As someone who’s been on both sides of this coin, I will share the pros and cons I’ve experienced.\nWoking Independently Pros Working alone is creatively fulfilling. I’ve done this for the majority of my projects now with two of them being longer term. As a solo developer you get to come up with the idea, the gameplay, the story, and everything else. You have such fine control over what goes into the game and what doesn’t.\nAnother pro is that you get to create your own schedule and timeline. You can work as much as you want, whenever you want! (You can probably imagine some downsides of this as well)\nYou can’t blame anyone else for not getting something done because it’s all you. If you need something, you can just make it! There is no time used to communicate or wait for something to get done. Well this sounds nice and all, there are also quite a few downsides.\nCons While working independently can be fun at first, it can quickly become difficult.\nFor one, it’s hard to stay motivated without others there to keep you accountable. This is something I’ve struggled with because while coming up with ideas is fun, after spending some time creating them, it can become bland. Not to mention, the workload is immense and can feel unbearable at times. It depends on the size of your game, but there’s a reason why big games have large teams. (And even then it takes a long time to develop!)\nBesides the workload and motivation, working alone can also make it hard to know if your ideas are as good as they sound. With someone else to bounce ideas off of you can get another opinion on the attractiveness and practicality of your idea. Working alone, you don’t have that other person to bounce those ideas off and therefore you might be wasting time creating something that isn’t even fun.\nWhile these problems themselves may seem overwhelming, fret not, because there is a solution to all of these problems. The solution? Work with a team!\nWorking with a Team Pros This can be a lot of fun especially if you have friends or other people who are excited to create something awesome. My favorite part of working with a team is the energy and motivation. When working with a team you see progress more often which can help increase motivation. In my experience it has been pretty fun because I’ve made games with my friends. Despite this, I can imagine that even working with strangers can be fun if they’re passionate (which they most likely are if they’re in the games industry).\nNot only is it fun, but it’s also practical. Bringing in others with various skills can lighten the workload by not only saving you the time it would’ve taken to create, but possibly learn the necessary skills as well. I don’t think I’ll ever create a large game again without an artist. It’s such a timesaver! Even if you have another person doing the same job as you, that can be 50% less work for you or 200% speed! That’s a pretty good deal if you ask me!\nOf course working in large teams isn’t an exploit for infinite speed because when teams get big you need people to manage those teams and stuff. I’m not going to talk about working in large teams because I don’t have experience with that but there are plenty of other good articles out there to read if you want to learn more about that.\nOverall, working with a team has a lot of upsides but like all things, there are downsides as well.\nCons Most of the cons are related to the social/creative aspect of working in a team.\nThe largest downside I’ve encountered is arguments over decisions. While some people may enjoy arguing, I do not. It can bring out the best results, but it can also cause tension between team members. This topic could be a whole article on its own. What I’ll say is that striking a balance between standing for what you believe is the ‘correct’ choice and being flexible is important when wanting to work with others. In the end, it usually works out well so don’t get too caught up on any one choice.\nAnother downside is that working on a team is like doing a big group project. Group projects always have potential issues. People not getting work done, not communicating, etc. The solutions I’ve found is to either leave them be and work with team members who are passionate about the project or if they just need to get more work done, encouraging them and setting deadlines. Deadlines are magic so if you have someone who always turns something in late put a deadline for a playtest or some goal.\nAlthough listing out all these cons make it sound pretty negative, working with a team can be a great time. Most of these cons can also be solved if the team is commited and has good communication. Having meetings, setting goals, and encouraging one another can lead to some fantastic games and can help build meaningful connections between team members.\nConclusion That’s about all I have to say about the pros and cons of working independently and in teams. It’s a short article but I’m trying to release one article at least every month. I have a really exciting article I’m working on for next month that will be the start of a new series! The teaser I’ll give is that it’s about game design, but I’ll give a full breakdown when it comes out. Let me know if I missed anything or if you have a different opinion by contacting me! Thanks for reading.\n",
+  "wordCount" : "1025",
+  "inLanguage": "en",
+  "datePublished": "2025-04-28T09:44:12-07:00",
+  "dateModified": "2025-04-28T09:44:12-07:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tanner202.github.io/posts/team-or-independent-pros-and-cons/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tanner's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tanner202.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://tanner202.github.io/" accesskey="h" title="Tanner&#39;s Blog (Alt + H)">Tanner&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://tanner202.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tanner202.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tanner202.github.io/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tanner202.github.io/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://tanner202.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://tanner202.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Game Development: Team or Independent? (Pros and Cons of each)
+    </h1>
+    <div class="post-meta"><span title='2025-04-28 09:44:12 -0700 PDT'>April 28, 2025</span>&nbsp;·&nbsp;5 min
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#intro" aria-label="Intro">Intro</a><ul>
+                        
+                <li>
+                    <a href="#woking-independently" aria-label="Woking Independently">Woking Independently</a><ul>
+                        
+                <li>
+                    <a href="#pros" aria-label="Pros">Pros</a></li>
+                <li>
+                    <a href="#cons" aria-label="Cons">Cons</a></li></ul>
+                </li>
+                <li>
+                    <a href="#working-with-a-team" aria-label="Working with a Team">Working with a Team</a><ul>
+                        
+                <li>
+                    <a href="#pros-1" aria-label="Pros">Pros</a></li>
+                <li>
+                    <a href="#cons-1" aria-label="Cons">Cons</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="intro">Intro<a hidden class="anchor" aria-hidden="true" href="#intro">#</a></h1>
+<p>Both working independently and with a team have their upsides and downsides. It depends on your goals and also what is important to you. For example, if you like having control over every aspect of your game you might prefer solo development. However, if you’re willing to sacrifice some creative liberties you might enjoy working with a team. As someone who&rsquo;s been on both sides of this coin, I will share the pros and cons I&rsquo;ve experienced.</p>
+<hr>
+<h2 id="woking-independently">Woking Independently<a hidden class="anchor" aria-hidden="true" href="#woking-independently">#</a></h2>
+<h3 id="pros">Pros<a hidden class="anchor" aria-hidden="true" href="#pros">#</a></h3>
+<p>Working alone is creatively fulfilling. I’ve done this for the majority of my projects now with two of them being longer term. As a solo developer you get to come up with the idea, the gameplay, the story, and everything else. You have such fine control over what goes into the game and what doesn&rsquo;t.</p>
+<p>Another pro is that you get to create your own schedule and timeline. You can work as much as you want, whenever you want! (You can probably imagine some downsides of this as well)</p>
+<p>You can’t blame anyone else for not getting something done because it’s all you. If you need something, you can just make it! There is no time used to communicate or wait for something to get done. Well this sounds nice and all, there are also quite a few downsides.</p>
+<h3 id="cons">Cons<a hidden class="anchor" aria-hidden="true" href="#cons">#</a></h3>
+<p>While working independently can be fun at first, it can quickly become difficult.</p>
+<p>For one, it’s hard to stay motivated without others there to keep you accountable. This is something I’ve struggled with because while coming up with ideas is fun, after spending some time creating them, it can become bland. Not to mention, the workload is immense and can feel unbearable at times. It depends on the size of your game, but there&rsquo;s a reason why big games have large teams. (And even then it takes a long time to develop!)</p>
+<p>Besides the workload and motivation, working alone can also make it hard to know if your ideas are as good as they sound. With someone else to bounce ideas off of you can get another opinion on the attractiveness and practicality of your idea. Working alone, you don’t have that other person to bounce those ideas off and therefore you might be wasting time creating something that isn&rsquo;t even fun.</p>
+<p>While these problems themselves may seem overwhelming, fret not, because there is a solution to all of these problems. The solution? Work with a team!</p>
+<hr>
+<h2 id="working-with-a-team">Working with a Team<a hidden class="anchor" aria-hidden="true" href="#working-with-a-team">#</a></h2>
+<h3 id="pros-1">Pros<a hidden class="anchor" aria-hidden="true" href="#pros-1">#</a></h3>
+<p>This can be a lot of fun especially if you have friends or other people who are excited to create something awesome. My favorite part of working with a team is the energy and motivation. When working with a team you see progress more often which can help increase motivation. In my experience it has been pretty fun because I’ve made games with my friends. Despite this, I can imagine that even working with strangers can be fun if they&rsquo;re passionate (which they most likely are if they&rsquo;re in the games industry).</p>
+<p>Not only is it fun, but it’s also practical. Bringing in others with various skills can lighten the workload by not only saving you the time it would’ve taken to create, but possibly learn the necessary skills as well. I don’t think I’ll ever create a large game again without an artist. It’s such a timesaver! Even if you have another person doing the same job as you, that can be 50% less work for you or 200% speed! That’s a pretty good deal if you ask me!</p>
+<p>Of course working in large teams isn&rsquo;t an exploit for infinite speed because when teams get big you need people to manage those teams and stuff. I&rsquo;m not going to talk about working in large teams because I don&rsquo;t have experience with that but there are plenty of other good articles out there to read if you want to learn more about that.</p>
+<p>Overall, working with a team has a lot of upsides but like all things, there are downsides as well.</p>
+<h3 id="cons-1">Cons<a hidden class="anchor" aria-hidden="true" href="#cons-1">#</a></h3>
+<p>Most of the cons are related to the social/creative aspect of working in a team.</p>
+<p>The largest downside I’ve encountered is arguments over decisions. While some people may enjoy arguing, I do not. It can bring out the best results, but it can also cause tension between team members. This topic could be a whole article on its own. What I’ll say is that striking a balance between standing for what you believe is the &lsquo;correct&rsquo; choice and being flexible is important when wanting to work with others. In the end, it usually works out well so don&rsquo;t get too caught up on any one choice.</p>
+<p>Another downside is that working on a team is like doing a big group project. Group projects always have potential issues. People not getting work done, not communicating, etc. The solutions I&rsquo;ve found is to either leave them be and work with team members who are passionate about the project or if they just need to get more work done, encouraging them and setting deadlines. Deadlines are magic so if you have someone who always turns something in late put a deadline for a playtest or some goal.</p>
+<p>Although listing out all these cons make it sound pretty negative, working with a team can be a great time. Most of these cons can also be solved if the team is commited and has good communication. Having meetings, setting goals, and encouraging one another can lead to some fantastic games and can help build meaningful connections between team members.</p>
+<hr>
+<h1 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h1>
+<p>That’s about all I have to say about the pros and cons of working independently and in teams. It&rsquo;s a short article but I&rsquo;m trying to release one article at least every month. I have a really exciting article I&rsquo;m working on for next month that will be the start of a new series! The teaser I&rsquo;ll give is that it&rsquo;s about game design, but I&rsquo;ll give a full breakdown when it comes out. Let me know if I missed anything or if you have a different opinion by contacting me! Thanks for reading.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="https://tanner202.github.io/">Tanner&#39;s Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
