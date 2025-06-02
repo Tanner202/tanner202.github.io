@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Tanner&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 09:44:12 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://tanner202.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minecraft Server and Plugin Development</title>
@@ -15,6 +15,13 @@
       <guid>https://tanner202.github.io/posts/minecraft-plugins/</guid>
       <description>In this blog post I talk about my experience learning to create Minecraft Servers and Plugins.
 Backstory As a kid I played a lot of video games. I mainly played Minecraft on popular online servers like Mineplex and Hypixel. During these days, I would wake up, hop on a call with my friends, and we would just play games. As I got older, these servers started to fade away and things changed.</description>
+    </item>
+    <item>
+      <title>Game Analysis: Mineplex The Bridges</title>
+      <link>https://tanner202.github.io/posts/game-analysis-bridges/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 -0400</pubDate>
+      <guid>https://tanner202.github.io/posts/game-analysis-bridges/</guid>
+      <description>New Series In this blog post I&amp;rsquo;m starting a new series where I analyze games! I&amp;rsquo;m going to be breaking these games down into their components. Dissecting what makes them fun and what parts could be improved. These games are going to be anything ranging from board games to video games. In each post of this series I will first give a reason for analyzing the game, a brief description, some of the mechanics, and then my thoughts on what made it fun and finally the problems and potential solutions.</description>
     </item>
     <item>
       <title>Game Development: Team or Independent? (Pros and Cons of each)</title>
